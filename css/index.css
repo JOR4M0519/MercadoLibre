@@ -1,0 +1,48 @@
+
+header{
+  background-color: #fff159;
+}
+
+#nav-menu-location {
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    top: 1px;
+    font-size: 12px;
+    color: rgba(0,0,0,.5);
+    display: block;
+    width: 100%;
+    left: 8px;
+    padding-top: 0px;
+    margin-right: 8px;
+    line-height: 10px;
+    height: 18px;
+}
+
+ul {
+  list-style: none;
+  padding: 12px 0 0;
+  overflow: hidden;
+  height: 36px;
+  margin: 0;
+  }
+  
+  li{
+    display: inline-block;
+    line-height: 22px;
+    font-size: 14px;
+    padding-right: 32px;
+    width: auto;
+    float: left;
+    color: rgba(51,51,51,.6);
+  }
+
+  li a:hover {
+    color: rgba(51,51,51,.9);
+  }
+
+  .adOFF_picture img {
+    max-width: 100px;
+    max-height: 50px;
+}
